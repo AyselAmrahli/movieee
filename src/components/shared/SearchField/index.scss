@@ -1,0 +1,25 @@
+@use '../../../assets/sass/main' as M;
+@use '../../../assets/sass/colors' as C;
+
+.app-search-field {
+  height: 64px;
+
+  input {
+    height: M.$fullheight;
+    width: 344px;
+    border: 1px solid C.$gray_700;
+    border-radius: M.$radius-main;
+    color: C.$white;
+    background-color: transparent;
+    background-image: url(../../../assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 20px 50%;
+    outline: none;
+    text-indent: 50px;
+
+    &::placeholder {
+      color: C.$gray_600;
+    }
+  }
+}

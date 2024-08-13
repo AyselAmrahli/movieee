@@ -1,0 +1,26 @@
+@use '../../../assets/sass/main' as M;
+@use '../../../assets/sass/colors' as C;
+
+.app-button {
+    padding: 10px;
+    margin: 2px;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: M.$radius-main;
+    background-color: C.$primary_400;
+    color: C.$white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:focus {
+      background-color: darken(C.$primary_400, 10%);
+    }
+
+    .icon, img.icon {
+      height: 14px;
+      width: 14px;
+    }
+}

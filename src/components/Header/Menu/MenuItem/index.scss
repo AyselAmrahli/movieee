@@ -1,0 +1,14 @@
+@use '../../../../assets/sass/main' as M;
+@use '../../../../assets/sass/colors' as C;
+
+  .app-header__menu__item {
+    display: inline-block;
+    padding: 5px 10px;
+
+    a {
+      text-decoration: none;
+      color: C.$gray_200;
+      font-size: M.$font-size-xs;
+      letter-spacing: 0.02em;
+    }
+  }

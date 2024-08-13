@@ -1,0 +1,20 @@
+// *** font sizes *** //
+$font-size-xxs: 12px;
+$font-size-xs: 16px;
+$font-size-s: 20px;
+
+// *** height *** //
+$fullheight: 100%;
+
+// *** standarts *** //
+$container_width: 1200px;
+
+// *** radius *** //
+$radius-main: 12px;
+
+
+// *** mixins *** //
+@mixin resetSpace {
+  margin: 0;
+  padding: 0;
+}

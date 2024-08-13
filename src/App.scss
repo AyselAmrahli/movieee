@@ -1,0 +1,23 @@
+@use './assets/sass/colors' as C;
+
+.App {
+  background-color: C.$gray_900;
+}
+
+.app-page__wrapper {
+  padding: 80px 30px;
+}
+
+article {
+  h4 {
+    color: C.$gray_50;
+  }
+  p{
+    color: C.$gray_300;
+  }
+}
+
+.icon {
+  height: 14px;
+  width: 14px;
+}

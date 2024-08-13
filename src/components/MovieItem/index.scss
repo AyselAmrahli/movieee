@@ -1,0 +1,28 @@
+@use '../../assets/sass/main' as M;
+@use '../../assets/sass/colors' as C;
+
+.centered {
+  display: flex;
+  align-items: center;
+}
+
+.app-movie__item {
+  padding: 8px;
+  border-radius: M.$radius-main;
+  background-color: rgba(32, 40, 62, 0.8);
+  position: relative;
+  cursor: pointer;
+
+  &__thumb {
+    height: 400px;
+    width: M.$fullheight;
+    object-fit: cover;
+    border-radius: M.$radius-main;
+  }
+
+  &__title  {
+    padding: 10px;
+    color: C.$gray_50;
+    @extend .centered
+  }
+}

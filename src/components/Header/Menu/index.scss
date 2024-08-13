@@ -1,0 +1,13 @@
+@use '../../../assets/sass/main' as M;
+@use '../../../assets/sass/colors' as C;
+
+.app-header__menu {
+  ul {
+    list-style-type: none;
+    @include M.resetSpace;
+    height: M.$fullheight;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

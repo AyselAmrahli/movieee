@@ -1,0 +1,6 @@
+@use '../../../assets/sass/main' as M;
+
+.app-container {
+  max-width: M.$container_width;
+  margin: 0 auto;
+}

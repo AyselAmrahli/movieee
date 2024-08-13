@@ -1,0 +1,11 @@
+@use '../../assets/sass/main' as M;
+@use '../../assets/sass/colors' as C;
+
+
+.app-page__title {
+  color: C.$gray_50;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: calc(M.$font-size-s * 3);
+  letter-spacing: -0.02em;
+}
